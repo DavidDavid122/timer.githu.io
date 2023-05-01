@@ -1,0 +1,67 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600;700&display=swap');
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141313;
+}
+
+.container {
+    position: absolute;
+    width: 40%;
+    min-width: 500px;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(-135deg, #3f3737,#0c0404);
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 60px 0;
+}
+
+.timer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    left: 0%;
+    color: #ffffff;
+    font-size: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+    background: linear-gradient(-135deg, #3d3636,#9e9a9a);
+    padding: 40px 0;
+    font-family: "Roboto mono", monospace;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 60px auto 0 auto;
+}
+
+.button button {
+    color: #141313;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.button button:hover {
+    color: #ffffff;
+    background: linear-gradient(-135deg, #8d8484,#1d1c1c);
+    border: 1px solid #ffffff;
+}
